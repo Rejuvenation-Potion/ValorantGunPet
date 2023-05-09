@@ -3,7 +3,7 @@
 VAR player_name = ""
 
 ===mission_dossier
-[VALORANT Protocol Headquarters]
+[VALORANT Protocol HQ]
 URGENT REQUEST \/\/ Intelligence Operator, review the mission dossier:
 
 ->dossier_sections
