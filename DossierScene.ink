@@ -4,7 +4,7 @@ INCLUDE PinnedDownScene.ink
 VAR player_name = ""
 
 ===mission_dossier
-[VALORANT Protocol Headquarters]
+[VALORANT Protocol Head-quarters]
 URGENT REQUEST \/\/ Intelligence Operator, review the mission dossier:
 
 ->dossier_sections
