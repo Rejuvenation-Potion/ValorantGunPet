@@ -1,7 +1,7 @@
 This will be the first file in our Valorant Story
 
- * There were two choices.
- * There were four lines of content.
+ * It was a great story.
+ * It was an awesome story!
 
-- They lived happily ever after.
+- They became rich and famous.
     -> END
