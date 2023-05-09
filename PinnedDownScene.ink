@@ -21,6 +21,7 @@ The agents made it into the facility but are now pinned down by Kingdom robots.
 * Killjoy, hack the mechs.
     //door still locked [Go to Locked Security Door]  → [Security Room]
     //no one injured but mechs are still alive
+    I had to focus for a second :)
     ->locked_door
 
 
