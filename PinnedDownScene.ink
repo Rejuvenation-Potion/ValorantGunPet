@@ -13,6 +13,7 @@ The agents made it into the facility but are now pinned down by Kingdom robots.
 * Brimstone, fight through the mechs.
     //Defeat mechs, someone gets injured
     //Door is still blocking them [Go to Locked Security Door] → [Security Room]
+    I'm editing a line here
     ->locked_door
 * Viper, lead us around.
     //Make it around the locked door (find weak point side panel entrance) → [Security Room]
