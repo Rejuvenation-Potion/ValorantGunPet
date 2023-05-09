@@ -1,3 +1,4 @@
+INCLUDE PinnedDownScene.ink
 ->mission_dossier
 
 VAR player_name = ""
@@ -9,7 +10,7 @@ URGENT REQUEST \/\/ Intelligence Operator, review the mission dossier:
 ->dossier_sections
 
 =dossier_sections
-* [View mission brief]
+* [\[View mission brief\]]
     MISSION OBJECTIVE \/\/ AGENT EXTRACTION
     
     BRIEF \/\/ Agent No. 11's comms have gone dark during a recon mission at a Kingdom facility near Buenos Aires.
@@ -19,25 +20,26 @@ URGENT REQUEST \/\/ Intelligence Operator, review the mission dossier:
     NAME \/\/ Zyanya Mondragón
     CLASSIFICATION \/\/ Radiant
     
-* [View mission team]
+* [\[View mission team\]]
     [MISSION TEAM]
 
-    Lab Specialist:
+    Lab Specialist: Ruthless. Genius. Pragmatic? Sadistic? Deadly.
     CALLSIGN \/\/ Viper
     NAME \/\/ Sabine Callas
     CLASSIFICATION \/\/ Human
-
-    Combat Specialist:
+    
+    Combat Specialist: Harsh. Stubborn. Direct. Determined. Regimented? something chain of command?
     CALLSIGN \/\/ Brimstone
     NAME \/\/ Liam Byrne
     CLASSIFICATION \/\/ Human
 
-    Tech Specialist:
+    Tech Specialist: Genius. Wildcard. Chaotic. Arrogant. Playful.
     CALLSIGN \/\/ Killjoy
     NAME \/\/ Klara Böhringer
     CLASSIFICATION \/\/ Human
     
-* {CHOICE_COUNT() < 1} [Enter Callsign to confirm mission]
+    
+* {CHOICE_COUNT() < 1} [\[Enter Callsign to confirm mission\]]
     You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean Operator!
     Intelligence Operator:
 
@@ -58,6 +60,6 @@ URGENT REQUEST \/\/ Intelligence Operator, review the mission dossier:
         ~player_name = "Nightshade"
     
     - - Welcome to the mission, {player_name}. Connecting you to the team.
-    ->END
+    ->pinned_down
 
 - ->dossier_sections
