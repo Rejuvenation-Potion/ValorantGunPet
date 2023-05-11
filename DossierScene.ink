@@ -1,4 +1,8 @@
 INCLUDE PinnedDownScene.ink
+INCLUDE functions.ink
+INCLUDE SecurityRoomScene.ink
+
+
 ->mission_dossier
 
 VAR player_name = ""
