@@ -6,8 +6,8 @@ VAR player_name = ""
 ===mission_dossier
 [VALORANT Protocol Headquarters]
 
-Today marks the end of your first week working in the Mission Control department at HQ. As you're about to exit the building a young man wearing fatigues calls out to you, "Wait!" he yells. He's been running for quite some time, "The higher-ups! You've got an assignment!" He catches his breath as he nears you, "Here, it's all on there." He shoves a dossier into your hands. Anxiety and elation flood your body. You have an assignment? But it's only your first week! "Well? Open it! It's an emergency!" Your sweaty fingers suddenly become a nuissance as you scramble to hold the device upright. The young man leans over your shoulder, trying to get a peek at what kind of mission a newbie would get.
-* [Shove him away.] You shove him off of you, "Hey this is classified! Probably..." He gives you a look of dissapointment before slinking away. You refocus your attention, and excitement, to the device. -> dossier_signin
+Today marks the end of your first week working in the Mission Control department at HQ. As you're about to exit the building a young man wearing fatigues calls out to you, "Wait!" he yells. He's been running for quite some time, "The higher-ups! You've got an assignment!" He catches his breath as he nears you, "Here, it's all on there." He shoves a dossier into your hands. Anxiety and elation flood your body. You have an assignment? But it's only your first week! "Well? Open it! It's an emergency!" Your sweaty fingers suddenly become a nuisance as you scramble to hold the device upright. The young man leans over your shoulder, trying to get a peek at what kind of mission a newbie would get.
+* [Shove him away.] You shove him off of you, "Hey this is classified! Probably..." He gives you a look of disappointment before slinking away. You refocus your attention, and excitement, to the device. -> dossier_signin
 * [Look through the dossier.] His presence doesn't bother you. Besides, if you were in his shoes you'd be curious too! You refocus your attention, and excitement, to the device. -> dossier_signin
 
 ->dossier_signin
