@@ -45,23 +45,24 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     
    BRIEF \/\/ Agent No. 11's comms have gone dark during a solo recon mission at a Kingdom facility near Buenos Aires. Reestablish communications and extract the agent. 
 
-SECONDARY OBJECTIVE \/\/ Find out Kingdom's purpose at the facility. Any research or technology acquired could prove invaluable to our cause. 
+    SECONDARY OBJECTIVE \/\/ Find out Kingdom's purpose at the facility. Any research or technology acquired could prove invaluable to our cause. 
 
     [MISSING AGENT]
     CALLSIGN \/\/ Reyna
     NAME \/\/ Zyanya Mondragón
-    CLASSIFICATION \/\/ Radiant
+    CLASSIFICATION \/\/ Radiant ->view_info
     
 * [\[View mission team\]]
     [MISSION TEAM]
-    -(opts)
+    - -(opts)
     * *[CALLSIGN \/\/ Viper] ->viper
     * *[CALLSIGN \/\/ Brimstone] ->brimstone
     * *[CALLSIGN \/\/ Killjoy] ->killjoy
     * *[CALLSIGN \/\/ {player_name}] ->you
-    - - ->view_info  
+    * *
+    - - ->view_info 
 
-// * {CHOICE_COUNT () < 1} [Get to Mission Control to start the assignment.]
+* {CHOICE_COUNT () < 1} [Get to Mission Control to start the assignment.]
     ->pinned_down
     
 =viper
@@ -81,7 +82,7 @@ SECONDARY OBJECTIVE \/\/ Find out Kingdom's purpose at the facility. Any researc
     CALLSIGN \/\/ Killjoy
     NAME \/\/ Klara Böhringer
     CLASSIFICATION \/\/ Human
-    Tech Specialist: A genius inventor from Germany. With confidence or arrogance, she brings enthusiasm to the batttlefield with her chaotic and playful [antics.] ->dossier_info.opts
+    Tech Specialist: A genius inventor from Germany. With confidence or arrogance, she brings enthusiasm to the battlefield with her chaotic and playful [antics.] ->dossier_info.opts
     
 =you
     CALLSIGN \/\/ {player_name}
