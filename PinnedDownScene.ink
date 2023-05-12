@@ -12,7 +12,7 @@ It appears the agents made it into the facility but are now pinned down by Kingd
 One of the agents' voices comes through on the comm. "{player_name}, is that you?"
 
 
-TODO: Choose which agent to ask for report? Manner of asking? i.e. "are you all alright?" vs. "cut to the chase." For now just "Status report"
+TODO: A few sentences for ambush strike. Goes into describing room & strategy choices.
 
 * "Status report[."]," you say.
     /*

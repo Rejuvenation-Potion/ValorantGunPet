@@ -5,7 +5,7 @@ INCLUDE SecurityRoomScene.ink
 
 ->mission_dossier
 
-VAR player_name = ""
+VAR player_name = "Player"
 
 ===mission_dossier
 [VALORANT Protocol Headquarters]
@@ -13,6 +13,7 @@ VAR player_name = ""
 Today marks the end of your first week out of training working in the Mission Control department at HQ. As you're about to exit the building a young man wearing fatigues calls out to you, "Wait!" he yells. He's been running for quite some time, "The higher-ups! You've got an assignment!" He catches his breath as he nears you, "Here, it's all on there." He shoves a tablet into your hands. You have an assignment? But it's only your first week! "Well? Open it! It's an emergency!" Your sweaty fingers suddenly become a nuisance as you scramble to hold the device upright. The young man nosily leans over your shoulder, "What kind of mission do they give a newbie anyway?"
 * [Shove him away.] You shove him off of you, "Hey this is classified! Probably..." He gives you a look of disappointment before slinking away. You refocus your attention, and excitement, to the device. -> dossier_signin
 * [Look through the mission dossier.] His presence doesn't bother you. Besides, if you were in his shoes you'd be curious too! You refocus your attention, and excitement, to the device. -> dossier_signin
+* [Dev ShortCut: Go to Pinned Down Scene] ->pinned_down
 
 ->dossier_signin
 
