@@ -7,6 +7,7 @@ VAR brim_injured = false
 VAR viper_injured = false
 VAR kj_injured = false
 
+TODO: Amaya: Beginning context all the way to right before ambush scene. Then look over and edit dialouge in whole scene.
 
 It appears the agents made it into the facility but are now pinned down by Kingdom robots.
 One of the agents' voices comes through on the comm. "{player_name}, is that you?"

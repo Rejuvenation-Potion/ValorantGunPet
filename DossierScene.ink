@@ -95,7 +95,7 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     ->dossier_info.opts
     
 =outro
-// transition to next section. getting into communication with the field team at mission control
+TODO: Amaya: transition to next section. getting into communication with the field team at mission control
 [You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean!]
 ->pinned_down
  
