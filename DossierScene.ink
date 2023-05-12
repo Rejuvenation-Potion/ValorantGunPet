@@ -10,9 +10,9 @@ VAR player_name = ""
 ===mission_dossier
 [VALORANT Protocol Headquarters]
 
-Today marks the end of your first week working in the Mission Control department at HQ. As you're about to exit the building a young man wearing fatigues calls out to you, "Wait!" he yells. He's been running for quite some time, "The higher-ups! You've got an assignment!" He catches his breath as he nears you, "Here, it's all on there." He shoves a dossier into your hands. Anxiety and elation flood your body. You have an assignment? But it's only your first week! "Well? Open it! It's an emergency!" Your sweaty fingers suddenly become a nuisance as you scramble to hold the device upright. The young man leans over your shoulder, trying to get a peek at what kind of mission a newbie would get.
+Today marks the end of your first week out of training working in the Mission Control department at HQ. As you're about to exit the building a young man wearing fatigues calls out to you, "Wait!" he yells. He's been running for quite some time, "The higher-ups! You've got an assignment!" He catches his breath as he nears you, "Here, it's all on there." He shoves a tablet into your hands. You have an assignment? But it's only your first week! "Well? Open it! It's an emergency!" Your sweaty fingers suddenly become a nuisance as you scramble to hold the device upright. The young man nosily leans over your shoulder, "What kind of mission do they give a newbie anyway?"
 * [Shove him away.] You shove him off of you, "Hey this is classified! Probably..." He gives you a look of disappointment before slinking away. You refocus your attention, and excitement, to the device. -> dossier_signin
-* [Look through the dossier.] His presence doesn't bother you. Besides, if you were in his shoes you'd be curious too! You refocus your attention, and excitement, to the device. -> dossier_signin
+* [Look through the mission dossier.] His presence doesn't bother you. Besides, if you were in his shoes you'd be curious too! You refocus your attention, and excitement, to the device. -> dossier_signin
 
 ->dossier_signin
 
@@ -63,7 +63,7 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     - - ->view_info 
 
 * {CHOICE_COUNT () < 1} [Get to Mission Control to start the assignment.]
-    ->pinned_down
+    ->outro
     
 =viper
     CALLSIGN \/\/ Viper
@@ -76,17 +76,25 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     CALLSIGN \/\/ Brimstone
     NAME \/\/ Liam Byrne
     CLASSIFICATION \/\/ Human
-    Combat Specialist: K/SEC veteran, now Commander of VALORANT. Dedicated, reliable, and stubborn. Boasting decades of experience, [and always willing to work in the field.] ->dossier_info.opts
+    Combat Specialist: K/SEC veteran, now the Commander of VALORANT. Dedicated, reliable, and stubborn. Boasting decades of experience, [and always willing to work in the field.] //bring up arsenal of weapons, strategy, battle tactics, leadership
+    ->dossier_info.opts
     
 =killjoy
     CALLSIGN \/\/ Killjoy
     NAME \/\/ Klara Böhringer
     CLASSIFICATION \/\/ Human
-    Tech Specialist: A genius inventor from Germany. With confidence or arrogance, she brings enthusiasm to the battlefield with her chaotic and playful [antics.] ->dossier_info.opts
+    Tech Specialist: A genius inventor from Germany. With confidence or arrogance, she brings enthusiasm to the battlefield with her chaotic and playful [antics.] // bring up hacking, tech 
+    ->dossier_info.opts
     
 =you
     CALLSIGN \/\/ {player_name}
     NAME \/\/ [Redacted]
     CLASSIFICATION \/\/ Human
-    Intelligence Specialist: The newest member of Mission Control. A prodigy in reconnaissance strategy and tactics. [You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean!] ->dossier_info.opts
+    Intelligence Specialist: The newest member of Mission Control. A prodigy in reconnaissance strategy and tactics. //hint towards brimstone specifically choosing the player?
+    ->dossier_info.opts
+    
+=outro
+// transition to next section. getting into communication with the field team at mission control
+[You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean!]
+->pinned_down
  
