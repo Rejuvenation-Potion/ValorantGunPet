@@ -37,7 +37,7 @@ Today marks the end of your first week working in the Mission Control department
 
 &nbsp;
 
-URGENT REQUEST \/\/ Intelligence Operator, review the mission dossier:
+SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
 
 -(view_info)
 * [\[View mission brief\]]
@@ -55,28 +55,25 @@ SECONDARY OBJECTIVE \/\/ Find out Kingdom's purpose at the facility. Any researc
 * [\[View mission team\]]
     [MISSION TEAM]
 
-    Lab Specialist: Ruthless. Genius. Pragmatic? Sadistic? Deadly.
     CALLSIGN \/\/ Viper
     NAME \/\/ Sabine Callas
     CLASSIFICATION \/\/ Human
+    Chem Specialist: Brilliant and bloodthristy, a former scientist and doctor for the Kingdom Corporation. Prefers to slowly kill her enemies with poisons and toxins. Word of advice: Don't ask her about "it".
     
-    Combat Specialist: Harsh. Stubborn. Direct. Determined. Regimented? something chain of command?
     CALLSIGN \/\/ Brimstone
     NAME \/\/ Liam Byrne
     CLASSIFICATION \/\/ Human
+    Combat Specialist: K/SEC veteran, now Commander of VALORANT. Dedicated, reliable, and stubborn. Boasting decades of experience, [and always willing to work in the field.]
 
-    Tech Specialist: Genius. Wildcard. Chaotic. Arrogant. Playful.
     CALLSIGN \/\/ Killjoy
     NAME \/\/ Klara Böhringer
     CLASSIFICATION \/\/ Human
-    
-    Intelligence Specialist: Prodigy. New. Genius. You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean Operator!
+    Tech Specialist: A genius inventor from Germany. With confidence or arrogance, she brings enthusiasm to the batttlefield with her chaotic and playful antics.
 
     CALLSIGN \/\/ {player_name}
-
     NAME \/\/ [Redacted]
-
     CLASSIFICATION \/\/ Human
+    Intelligence Specialist: Prodigy. New. Genius. You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean Operator!
    
    * {CHOICE_COUNT () < 1} [Get to Mission Control to start the assignment.]
     ->pinned_down
