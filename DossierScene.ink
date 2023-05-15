@@ -47,8 +47,6 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
    BRIEF \/\/ Agent No. 11's comms have gone dark during a solo recon mission at a Kingdom Industries (K-IND) facility near Buenos Aires on Omega Earth. Reestablish communications and extract the agent. [Kingdom Industries is Omega Earth's mirrorverse version of Kindgom Corporation. Alpha Earth has been under attack from Omega Agents from K-IND's VALORANT Legion.]
 
     SECONDARY OBJECTIVE \/\/ Find out K-IND's purpose at the facility. Any research or technology acquired could prove invaluable to our cause. 
-    
-
 
     [MISSING AGENT]
     CALLSIGN \/\/ Reyna
@@ -74,14 +72,14 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     CALLSIGN \/\/ Viper
     NAME \/\/ Sabine Callas
     CLASSIFICATION \/\/ Human
-    Chem Specialist: Brilliant and bloodthristy, a former scientist and doctor for Kingdom Corporation (K-CORP). Prefers to slowly kill her enemies with poisons and toxins. Word of advice: Don't ask her about "it". ->dossier_info.opts // personality, methods, personalization
+    Chem Specialist: Brilliant and bloodthristy, a former scientist and doctor for Kingdom Corporation (K-CORP). Prefers to slowly kill her enemies with poisons and toxins. [Word of advice: Do NOT get on her bad side.] ->dossier_info.opts // personality, methods, personalization
     
     
 =brimstone
     CALLSIGN \/\/ Brimstone
     NAME \/\/ Liam Byrne
     CLASSIFICATION \/\/ Human
-    Combat Specialist: VALORANT Protocol's reliable but stubborn commander. As a vetern of K-SEC, a subsidiary organizationa of Kingdom Corporation, he brings decades of combat experience to the field. [Just don't mention his age.]
+    Combat Specialist: VALORANT Protocol's reliable but stubborn commander. As a vetern of K-SEC, a subsidiary organization of Kingdom Corporation, he brings decades of combat experience to the field. [Just don't mention his age, he's very sensitive about that.]
  //bring up arsenal of weapons, strategy, battle tactics, leadership 
     ->dossier_info.opts
     
@@ -89,20 +87,22 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     CALLSIGN \/\/ Killjoy
     NAME \/\/ Klara Böhringer
     CLASSIFICATION \/\/ Human
-    Tech Specialist: A genius inventor from Germany. Formerly lead K-CORP's Research and Development department before being recruited into VALORANT Protocol.
-    
-    With confidence or arrogance, she brings enthusiasm to the battlefield with her chaotic and playful [antics.] // bring up hacking, tech 
+    Tech Specialist: A genius inventor from Germany. Formerly lead K-CORP's Research and Development department before being recruited into VALORANT Protocol. She brings enthusiasm to the battlefield with playful, and sometimes reckless, confidence. // bring up hacking, tech
     ->dossier_info.opts
     
 =you
     CALLSIGN \/\/ {player_name}
     NAME \/\/ [Redacted]
     CLASSIFICATION \/\/ Human
-    Intelligence Specialist: The newest member of Mission Control. A prodigy in reconnaissance strategy and tactics. //hint towards brimstone specifically choosing the player?
+    Intelligence Specialist: The brightest new member of Mission Control. A prodigy in reconnaissance strategy and tactics, VALORANT Protocol watches {player_name} with anticipation.
+    [DIRECT MESSAGE FROM "Brimstone": You're the team's eyes and ears. It's your job to guide us through the K-IND facility. Show us what you can do {player_name}!]
     ->dossier_info.opts
     
 =outro
 TODO: Amaya: transition to next section. getting into communication with the field team at mission control
+
+[You rush to the Mission Control department. The operator's desk is already primed and ready for you. With baited breath you carefuly place your headset, and connect to the field agents.]
+
 [You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean!]
 ->pinned_down
  
