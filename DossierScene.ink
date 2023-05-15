@@ -8,9 +8,9 @@ INCLUDE SecurityRoomScene.ink
 VAR player_name = "Player"
 
 ===mission_dossier
-[VALORANT Protocol Headquarters]
+[Alpha Earth: VALORANT Protocol Headquarters]
 
-Today marks the end of your first week out of training working in the Mission Control department at HQ. As you're about to exit the building a young man wearing fatigues calls out to you, "Wait!" he yells. He's been running for quite some time, "The higher-ups! You've got an assignment!" He catches his breath as he nears you, "Here, it's all on there." He shoves a tablet into your hands. You have an assignment? But it's only your first week! "Well? Open it! It's an emergency!" Your sweaty fingers suddenly become a nuisance as you scramble to hold the device upright. The young man nosily leans over your shoulder, "What kind of mission do they give a newbie anyway?"
+Today marks the end of your first month out of training working in the Mission Control department at HQ. As you're about to exit the building a young man wearing fatigues calls out to you, "Wait!" he yells. He's been running for quite some time, "The higher-ups! You've got an assignment!" He catches his breath as he nears you, "Here, it's all on there." He shoves a tablet into your hands. You have an assignment? But it's only your first week! "Well? Open it! It's an emergency!" Your sweaty fingers suddenly become a nuisance as you scramble to hold the device upright. The young man nosily leans over your shoulder, "What kind of mission do they give a newbie anyway?"
 * [Shove him away.] You shove him off of you, "Hey this is classified! Probably..." He gives you a look of disappointment before slinking away. You refocus your attention, and excitement, to the device. -> dossier_signin
 * [Look through the mission dossier.] His presence doesn't bother you. Besides, if you were in his shoes you'd be curious too! You refocus your attention, and excitement, to the device. -> dossier_signin
 * [Dev ShortCut: Go to Pinned Down Scene] ->pinned_down
@@ -44,14 +44,18 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
 * [\[View mission brief\]]
     MISSION OBJECTIVE \/\/ AGENT EXTRACTION
     
-   BRIEF \/\/ Agent No. 11's comms have gone dark during a solo recon mission at a Kingdom facility near Buenos Aires. Reestablish communications and extract the agent. 
+   BRIEF \/\/ Agent No. 11's comms have gone dark during a solo recon mission at a Kingdom Industries (K-IND) facility near Buenos Aires on Omega Earth. Reestablish communications and extract the agent. [Kingdom Industries is Omega Earth's mirrorverse version of Kindgom Corporation. Alpha Earth has been under attack from Omega Agents from K-IND's VALORANT Legion.]
 
-    SECONDARY OBJECTIVE \/\/ Find out Kingdom's purpose at the facility. Any research or technology acquired could prove invaluable to our cause. 
+    SECONDARY OBJECTIVE \/\/ Find out K-IND's purpose at the facility. Any research or technology acquired could prove invaluable to our cause. 
+    
+
 
     [MISSING AGENT]
     CALLSIGN \/\/ Reyna
     NAME \/\/ Zyanya Mondragón
     CLASSIFICATION \/\/ Radiant ->view_info
+    
+ 
     
 * [\[View mission team\]]
     [MISSION TEAM]
@@ -70,21 +74,24 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     CALLSIGN \/\/ Viper
     NAME \/\/ Sabine Callas
     CLASSIFICATION \/\/ Human
-    Chem Specialist: Brilliant and bloodthristy, a former scientist and doctor for the Kingdom Corporation. Prefers to slowly kill her enemies with poisons and toxins. Word of advice: Don't ask her about "it". ->dossier_info.opts
+    Chem Specialist: Brilliant and bloodthristy, a former scientist and doctor for Kingdom Corporation (K-CORP). Prefers to slowly kill her enemies with poisons and toxins. Word of advice: Don't ask her about "it". ->dossier_info.opts // personality, methods, personalization
     
     
 =brimstone
     CALLSIGN \/\/ Brimstone
     NAME \/\/ Liam Byrne
     CLASSIFICATION \/\/ Human
-    Combat Specialist: K/SEC veteran, now the Commander of VALORANT. Dedicated, reliable, and stubborn. Boasting decades of experience, [and always willing to work in the field.] //bring up arsenal of weapons, strategy, battle tactics, leadership
+    Combat Specialist: VALORANT Protocol's reliable but stubborn commander. As a vetern of K-SEC, a subsidiary organizationa of Kingdom Corporation, he brings decades of combat experience to the field. [Just don't mention his age.]
+ //bring up arsenal of weapons, strategy, battle tactics, leadership 
     ->dossier_info.opts
     
 =killjoy
     CALLSIGN \/\/ Killjoy
     NAME \/\/ Klara Böhringer
     CLASSIFICATION \/\/ Human
-    Tech Specialist: A genius inventor from Germany. With confidence or arrogance, she brings enthusiasm to the battlefield with her chaotic and playful [antics.] // bring up hacking, tech 
+    Tech Specialist: A genius inventor from Germany. Formerly lead K-CORP's Research and Development department before being recruited into VALORANT Protocol.
+    
+    With confidence or arrogance, she brings enthusiasm to the battlefield with her chaotic and playful [antics.] // bring up hacking, tech 
     ->dossier_info.opts
     
 =you
