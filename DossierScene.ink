@@ -100,9 +100,8 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     
 =outro
 TODO: Amaya: transition to next section. getting into communication with the field team at mission control
-
+// quick outline: go to mission control department. "tap into" field agents on mission. make contact with agents, they each have something to say. brimstone is happy to hear from you. the agents have just entered the site through a portable gateway. you look through their cameras and mics. the facility is shutdown, all power appears to be cut. it should be easy getting inside. the agents easily infiltrate the main building, there is no resistance or guards. their goal is to get to the security room where they can access information, and get their comms restablished with Reyna. The main room is lit up with emergency lights that are independently powered. giant crates are lined up at the back of the room near a large metal door that leads to the main security system. 
 [You rush to the Mission Control department. The operator's desk is already primed and ready for you. With baited breath you carefuly place your headset, and connect to the field agents.]
 
-[You're the team's eyes and ears. It's your job to guide the field agents through the Kingdom facility. Make it quick and clean!]
 ->pinned_down
  
