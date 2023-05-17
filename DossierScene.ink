@@ -101,7 +101,12 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
 =outro
 TODO: Amaya: transition to next section. getting into communication with the field team at mission control
 // quick outline: go to mission control department. "tap into" field agents on mission. make contact with agents, they each have something to say. brimstone is happy to hear from you. the agents have just entered the site through a portable gateway. you look through their cameras and mics. the facility is shutdown, all power appears to be cut. it should be easy getting inside. the agents easily infiltrate the main building, there is no resistance or guards. their goal is to get to the security room where they can access information, and get their comms restablished with Reyna. The main room is lit up with emergency lights that are independently powered. giant crates are lined up at the back of the room near a large metal door that leads to the main security system. 
-[You rush to the Mission Control department. The operator's desk is already primed and ready for you. With baited breath you carefuly place your headset, and connect to the field agents.]
+You rush to the Mission Control department. Waiting impatiently is your department lead, "I don't know why they put a rookie on this but there's no time to lose. Come with me." He guides you to an Active Mission Operator desk. It buzzes with energy as you sit down. Your lead hands you a special helmet connected to the department's supercomputer, "Put this on and say '()'." You carefully put on the helmet and everything goes dark. The bustling noises of work are silenced and all light vanishes.
+* "()"
+You gasp for air as all the color in the world lights up before you, swirling and zipping past you. You begin to feel nauseous just as the colors start to settle. You push away the feeling and focus on the images before you. Three perspectives seen at once. And then the sound comes. Metal and wind, the road, the sounds of people breathing. A digital overlay appears before you, labeling the perspectives and analyzing the environment.
+    [Viper] [Brimstone] [Killjoy]
+    [Location: VALORANT Protocol, Portable Pathway Vehicle]
+"It seems we're no longer alone," Viper says. Brimstone looks up to a pale woman with short black hair, then to a blinking light on his bracer, "Ah! That would be our IO. How ya doing kid?" He grins and waits for you to answer.
 
 ->pinned_down
  
