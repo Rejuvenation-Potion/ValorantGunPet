@@ -107,7 +107,7 @@ You rush to the Mission Control department. Waiting impatiently is your departme
     [Viper] [Brimstone] [Killjoy]
     [Location: VALORANT Protocol, Portable Pathway Vehicle]
 "It seems we're no longer alone," Viper says. Brimstone looks up to a pale woman with short black hair, then to a blinking light on his bracer, "Ah! That would be our IO. How ya doing kid?" He grins and waits for you to answer.
-* "Intelligence Officer Jester requesting status report[."]," you say dutifully. "Straight to business, alright," Brimstone shakes his head, "We've already made the jump to Omega and the facility should be close by. Our sources say that this place was recently abandoned. Expect it to be lightly guarded. All we gotta do is get in, get out, and boom! Mission accomplished." 
+* "Intelligence Officer {player_name} requesting status report[."]," you say dutifully. "Straight to business, alright," Brimstone shakes his head, "We've already made the jump to Omega and the facility should be close by. Our sources say that this place was recently abandoned. Expect it to be lightly guarded. All we gotta do is get in, get out, and boom! Mission accomplished." 
 * "Doing great, thank you sir! I'm ready for the mission, sir!"[] You say eagerly, letting slip your exitment.
 * "Oh just amazing. My conscious was shot through a dimension-portal link for the first time and I managed NOT to throw up!" [] You say in a sarcastic but playful tone. Killjoy, a young woman in colorful clothing and a green beenie, chuckles at your joke, "I like this one, they've got 'spunk' as you Americans say." Viper groans, which only causes Killjoy to smile wider.
 - Suddenly the vehicle comes to a screeching stop.
