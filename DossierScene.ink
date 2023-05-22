@@ -110,9 +110,9 @@ You gasp for air as all the color in the world lights up before you, swirling an
 "It seems we're no longer alone," Viper says. Brimstone, a rugged older man, looks up to a pale woman with short black hair, then to a blinking light on his bracer, "Ah! That would be our IO. How ya doing kid?" He grins and waits for you to answer.
 * "Intelligence Officer {player_name} requesting status report[."]," you say dutifully. Brimstone shakes his head, "Straight to business, alright. We've already made the jump to Omega and the facility should be close by. Our sources say that this place was recently abandoned. Expect it to be lightly guarded. All we gotta do is get in, get out, and boom! Mission accomplished." 
 Killjoy, a young woman in colorful clothing and a green beenie, chuckles, "Fingers crossed, we'll be back at base before you can say 'popcorn'! What? I'm hungry."
-* "Doing great, thank you sir! I'm ready for the mission, sir!"[] You say eagerly. Viper groans, "New blood, impatient to prove themselves as always. Try not to get us killed will you?" Killjoy, a young woman in colorful clothing and a green beenie, responds, "Maybe don't insult the person who's in charge of our lives ja? Just a thought."
+* "Doing great, thank you sir! I'm ready for the mission, sir!"[] You say eagerly. Viper groans, "New bloods, impatient...predictable. Try not to get us killed will you?" Killjoy, a young woman in colorful clothing and a green beenie, responds, "Maybe don't insult the person who's in charge of our lives ja? Just a thought."
 * "Oh just amazing. My conscious was shot through a dimension-portal link for the first time and I managed NOT to throw up!" [] You say in a sarcastic but playful tone. Killjoy, a young woman in colorful clothing and a green beenie, chuckles at your joke, "I like this one, they've got 'spunk' as you Americans say." Viper groans, which only causes Killjoy to smile wider.
-- Suddenly the vehicle comes to a screeching stop. "Showtime!" Brimstone exclaims and bursts out the vehicle's back doors.
+- Suddenly the vehicle comes to a screeching stop. "That's our cue!" Brimstone exclaims and bursts out the vehicle's back doors.
 
 ->pinned_down
  
