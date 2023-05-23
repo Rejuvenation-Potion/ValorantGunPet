@@ -1,6 +1,8 @@
 INCLUDE PinnedDownScene.ink
 INCLUDE functions.ink
 INCLUDE SecurityRoomScene.ink
+INCLUDE QuarantineRoomScene.ink
+
 
 
 ->mission_dossier
@@ -119,6 +121,8 @@ Brimstone raises his hand for the team to stop, "Hold on, I know I said this wou
 "Something isn't right..." Viper finishes, her eyes dart around the room for threats.
 Killjoy continues forward, "Come on! I haven't invented a time machine, yet."
 "Killjoy wait!" Viper yells as Killjoy takes one step too far towards the door.
+
+TODO: Add first hints at gun pets while describing room
 
 ->pinned_down
  

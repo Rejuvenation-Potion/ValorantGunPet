@@ -7,14 +7,13 @@ VAR brim_injured = false
 VAR viper_injured = false
 VAR kj_injured = false
 
-TODO: Amaya: look over and edit dialouge in whole scene.
-
-________________(Section between connection and ambush)________________
-
 ->ambush
 
 =ambush
-Suddenly, your comms are overwhelmed by the sound of a blaring alarm. Your viewscreens light up red as warning lights illuminate the facility around your agents. Your comm system adjusts to filter out the alarm just in time for you to hear Brimstone yell "Get down!" 
+TODO: Add player input around here: player needs to adjust whole team's comm filters for noise and vision
+Suddenly, your comms are overwhelmed by the sound of a blaring alarm. Your viewscreens light up red as warning lights illuminate the facility around your agents. 
+//Input goes here-ish
+Your comm system adjusts to filter out the alarm just in time for you to hear Brimstone yell "Get down!" 
 All three of your agents dive for cover just as bright muzzle flashes and the sound of gunshots fill the room. Through their shared perspectives, you see several of the heavy crates in the room slide open to reveal bipedal mechs. Heavily-armed Kingdom Industries mechs. It's clear your agents are under fire, but you'll need a more detailed report to make sense of the chaos.
 
 * "Status report[."]," you say.
@@ -63,6 +62,8 @@ VAR asked_kj = false
     "We're smarter than these mechs, and destorying them isn't our objective anyway. I say we go around."
     "Go around where?" Brimstone asks.
     "There's a service tunnel entrance on the left wall" Viper says. You see the dark passageway she indicates through her section of your split perspective. "We can reach it without leaving cover and lose the mechs in the tunnels. We may even find an alternate path to our objective, bypassing the locked door entirely."
+    TODO: allude to something hiding in tunnel? Maybe Killjoy just gets a bad vibe/disapproves "ah yes, let's go in the creepy dark tunnel"
+    TODO: Maybe change from "service tunnel" to actual dirt tunnel, dug by an animal
         
 * "Killjoy, what do you think?"[] you ask.
     ~asked_kj = true
@@ -96,6 +97,7 @@ VAR asked_kj = false
     ->locked_door
     
 * {asked_viper} "Viper, lead the team around[."]," you order.
+    TODO: Add hints at gun pets; "you feel like you are being watched," etc.
     "Good choice." Viper replies. "Brimstone, Killjoy; with me." //redo
     Viper leads the team stealthily and silently from crate to crate, never breaking cover. Before long, the team is behind one last crate about eight feet from the service tunnel.
     "We'll have to make a break for it from here," Viper explains quietly. //redo 
@@ -122,7 +124,11 @@ VAR asked_kj = false
 - ->agent_plans
 
 ===locked_door
+TODO: Amaya
 TODO: Do we want this to be a scene with a choice? Or just a short wrap-up for the Brim and KJ routes?
+// 1. Brimstone route, KJ healthy, easy unlocking
+// 2. Brimsonte route, Killjoy injured, still get through but difficult?
+// 3. Killjoy route--mechs come back online just as they get through door
 ________(Quick scene about unlocking door not yet written)__________
 
 ->security_room
