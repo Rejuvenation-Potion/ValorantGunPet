@@ -87,7 +87,7 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     CALLSIGN \/\/ Killjoy
     NAME \/\/ Klara Böhringer
     CLASSIFICATION \/\/ Human
-    Tech Specialist: A genius inventor from Germany. Formerly lead K-CORP's Research and Development department before being recruited into VALORANT Protocol. She brings enthusiasm to the battlefield with playful, and sometimes reckless, confidence. // bring up hacking, tech
+    Tech Specialist: A genius inventor from Germany. Formerly lead Kingdom Corporation's Research and Development department before being recruited into VALORANT Protocol. She brings enthusiasm to the battlefield with playful, and sometimes reckless, confidence. // bring up hacking, tech
     ->dossier_info.opts
     
 =you
@@ -108,13 +108,13 @@ You gasp for air as all the color in the world lights up before you, swirling an
     [Viper] [Brimstone] [Killjoy]
     [LOCATION: Omega Earth - VALORANT Protocol's Portable Pathway Vehicle]
 "It seems we're no longer alone," Viper says. Brimstone, a rugged older man, looks up to a pale woman with short black hair, then to a blinking light on his bracer, "Ah! That would be our IO. How ya doing kid?" He grins and waits for you to answer.
-* "Intelligence Officer {player_name} requesting status report[."]," you say dutifully. Brimstone shakes his head, "Straight to business, alright. We've already made the jump to Omega and the facility should be close by. Our sources say that this place was recently abandoned. Expect it to be lightly guarded. All we gotta do is get in, get out, and boom! Mission accomplished." 
+* "Intelligence Operator {player_name} requesting status report[."]," you say dutifully. Brimstone shakes his head, "Straight to business, alright. We've already made the jump to Omega and the facility should be close by. Our sources say that this place was recently abandoned. Expect it to be lightly guarded. All we gotta do is get in, get out, and boom! Mission accomplished." 
 Killjoy, a young woman in colorful clothing and a green beenie, chuckles, "Fingers crossed, we'll be back at base before you can say 'popcorn'! What? I'm hungry."
-* "Doing great, thank you sir! I'm ready for the mission, sir!"[] You say eagerly. Viper groans, "New bloods, impatient...predictable. Try not to get us killed will you?" Killjoy, a young woman in colorful clothing and a green beenie, responds, "Maybe don't insult the person who's in charge of our lives ja? Just a thought."
-* "Oh just amazing. My conscious was shot through a dimension-portal link for the first time and I managed NOT to throw up!" [] You say in a sarcastic but playful tone. Killjoy, a young woman in colorful clothing and a green beenie, chuckles at your joke, "I like this one, they've got 'spunk' as you Americans say." Viper groans, which only causes Killjoy to smile wider.
+* (viperdontgetuskilled) "Doing great, thank you sir! I'm ready for the mission, sir!"[] You say eagerly. Viper groans, "New bloods, impatient...predictable. Try not to get us killed will you?" Killjoy, a young woman in colorful clothing and a green beenie, responds, "Maybe don't insult the person who's in charge of our lives ja? Just a thought." 
+* "Oh just amazing. My conscious was shot through a dimension-portal link for the first time and I managed NOT to throw up!" [] You say in a sarcastic but playful tone. Killjoy, a young woman in colorful clothing and a green beenie, chuckles at your joke, "I like this one, they've got 'spunk' as you Americans say." Viper groans, which only further amuses Killjoy.
 - Suddenly the vehicle comes to a screeching stop. "That's our cue!" Brimstone exclaims and bursts out from the back of the vehicle. Killjoy and Viper quickly follow his lead. They make their way to the perimeter of the facility. There are no guards stationed, and a quick scan tells you that the power to the facility has been shut off for quite some time. That's a relief, there shouldn't be any internal defense systems online. 
 * [Signal for the team to enter the facility.]
-You tell the team to move ahead and they infilrate the main building with ease. Red dimly lit emergency lights guide their path until they reach an enormous central chamber. At its end is a large metal door with a barely legible sign that reads [CENTRAL SECURITY].
+You tell the team to move ahead and they infilrate the main building with ease. Dimly lit red emergency lights guide their path until they reach an enormous central chamber. At its end is a large metal door with a barely legible sign that reads [CENTRAL SECURITY].
 "Ah! Over there!" Killjoy points to the sign, "If I can get in there we can access their surveillence system. We'll find Reyna in no time."
 Brimstone raises his hand for the team to stop, "Hold on, I know I said this would be easy but-"
 "Something isn't right..." Viper finishes, her eyes dart around the room for threats.
