@@ -100,7 +100,6 @@ SPECIAL REQUEST \/\/ Intelligence Operator, review the mission dossier:
     
 =outro
 TODO: Amaya: transition to next section. getting into communication with the field team at mission control
-// quick outline: go to mission control department. "tap into" field agents on mission. make contact with agents, they each have something to say. brimstone is happy to hear from you. the agents have just entered the site through a portable gateway. you look through their cameras and mics. the facility is shutdown, all power appears to be cut. it should be easy getting inside. the agents easily infiltrate the main building, there is no resistance or guards. their goal is to get to the security room where they can access information, and get their comms restablished with Reyna. The main room is lit up with emergency lights that are independently powered. giant crates are lined up at the back of the room near a large metal door that leads to the main security system. 
 You rush to the Mission Control department. Waiting impatiently is your department lead, "I don't know why they put a rookie on this but there's no time to lose. Come with me." He guides you to an Active Mission Operator desk. It buzzes with energy as you sit down. Your lead hands you a special helmet connected to the department's supercomputer, "Put this on and say 'Establish Pathway Link'." You carefully put on the helmet and everything goes dark. The bustling noises of work are silenced and all light vanishes.
 * "Establish Pathway Link"
 - [ACTIVATING NEURAL LINK - PATHWAY ALGORITHM ONLINE] 
