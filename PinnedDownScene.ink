@@ -126,6 +126,20 @@ VAR asked_kj = false
 ===locked_door
 TODO: Amaya
 TODO: Do we want this to be a scene with a choice? Or just a short wrap-up for the Brim and KJ routes?
+The solid metal door towers above the agents with intimidation. There's no way they'll be able to blast through it, so it's up to Killjoy to hack it open.
+{
+    - kj_injured == false && mechs_alive == false: 
+    Placeholder Text 1
+    }
+{   
+    - kj_injured == true && mechs_alive == false:
+    Placeholder Text 2
+    }
+{
+    - kj_injured == false && mechs_alive == true:
+    Placeholder Text 3
+    }
+    
 // 1. Brimstone route, KJ healthy, easy unlocking
 // 2. Brimsonte route, Killjoy injured, still get through but difficult?
 // 3. Killjoy route--mechs come back online just as they get through door
